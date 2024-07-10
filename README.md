@@ -73,9 +73,9 @@ How to deploy a sample tomcat application using jenkins......
 
 16. Just uncomment a below line into tomcat webapps
 
-    ![Alt text](16.png)
+    ![Alt text](jen/16.png)
     
-    ![Alt text](15.png)
+    ![Alt text](jen/15.png)
 
     If you changed anything,do not forget to restart a service
 
