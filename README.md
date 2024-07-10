@@ -47,7 +47,7 @@ How to deploy a sample tomcat application using jenkins......
 
     ![Alt text](jen/8.png)
 
-11. Now,you can try to access a jenkins machine using your IP:7079 with a port number.
+11. Now,you can try to access a tomcat on the machine using your IP:7079 with a port number.
 
     ![Alt text](jen/9.png)
 
