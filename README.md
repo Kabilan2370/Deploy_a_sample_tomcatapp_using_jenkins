@@ -12,7 +12,7 @@ How to deploy a sample tomcat application using jenkins......
    
    First,Install a java jdk on the machine
    
-   ![Alt text](https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb)
+   https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb
 
 3. Then,Before install a jenkins ,you should add jenkins key and directory
 
@@ -59,7 +59,7 @@ How to deploy a sample tomcat application using jenkins......
 13. The move the sample.war file to cd /var/lib/jenkins/webapps/deplot_a_application
     Above,the line I mentioned a my jenkins newstyle(deplot_a_application) project.
 
-    1[Alt text](jen/11.png)
+    ![Alt text](jen/11.png)
 
 14. On my project ,in the post build action choose a deploy a continer & give the sample application details.
 
@@ -74,11 +74,12 @@ How to deploy a sample tomcat application using jenkins......
 16. Just uncomment a below line into tomcat webapps
 
     ![Alt text](16.png)
+    
     ![Alt text](15.png)
 
     If you changed anything,do not forget to restart a service
 
-17. Now, You can run the jenkins job & check the console output
+18. Now, You can run the jenkins job & check the console output
 
     ![Alt text](jen/17.png)
     ![Alt text](jen/18.png)
